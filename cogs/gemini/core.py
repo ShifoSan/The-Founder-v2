@@ -14,7 +14,7 @@ class GeminiCore(commands.Cog):
         api_key = os.getenv("GEMINI_API_KEY")
         if api_key and api_key != "your_key_here":
             genai.configure(api_key=api_key)
-            self.model = genai.GenerativeModel('gemini-1.5-flash')
+            self.model = genai.GenerativeModel('gemini-2.5-flash-lite')
         else:
             print("Warning: GEMINI_API_KEY not found or invalid.")
             self.model = None
