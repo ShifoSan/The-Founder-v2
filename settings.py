@@ -2,7 +2,7 @@
 GUILD_ID = 1316791123422740572
 STAFF_ROLE_ID = 1407636174914191380
 MODLOG_CHANNEL = 1423218121736454195
-AI_CHANNEL = 1434115853422432379
+AI_CHANNEL = 1436451833806721084
 # ADMIN_ROLE note: The requirement says "Check for administrator permission",
 # so we might not strictly need an ID if we use checks.has_permissions(administrator=True).
 # However, if we need a specific role ID for overrides, we can add it.
